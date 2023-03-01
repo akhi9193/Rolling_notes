@@ -197,7 +197,7 @@ function Card1() {
 
 
                 <div className='container'>
-                <iframe src="https://rollingnotes.in/pdf_embed_type/2021-held-in-2022-human-resource-development-question-paper-5th-semester-bcom-cbcs-dibrugarh-university/" width="100%" height="500px"/> 
+                <iframe src="https://rolling-notes.vercel.app/" width="100%" height="500px"/> 
                 </div>
             </div>
         </>
