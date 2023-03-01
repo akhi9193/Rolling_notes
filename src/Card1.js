@@ -1,21 +1,31 @@
 import { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import TEST from '../src/TEST.pdf'
 function Card1() {
 
     const [line1, setLine1] = useState("")
     const [line2, setLine2] = useState("")
     const [line3, setLine3] = useState("")
+    const [line4, setLine4] = useState("")
+    const [line5, setLine5] = useState("")
+    const [line6, setLine6] = useState("")
 
     const addLineCss1 = () => {
         setLine1("addline")
         setLine2("")
         setLine3("")
+        setLine4("")
+        setLine5("")
+        setLine6("")
     }
 
     const addLineCss2 = () => {
         setLine2("addline")
         setLine1("")
         setLine3("")
+        setLine4("")
+        setLine5("")
+        setLine6("")
     }
 
 
@@ -23,6 +33,39 @@ function Card1() {
         setLine3("addline")
         setLine2("")
         setLine1("")
+        setLine4("")
+        setLine5("")
+        setLine6("")
+
+    }
+    const addLineCss4 = () => {
+        setLine1("")
+        setLine2("")
+        setLine3("")
+        setLine4("addline")
+        setLine5("")
+        setLine6("")
+    }
+
+    const addLineCss5 = () => {
+        
+        setLine5("addline")
+        setLine2("")
+        setLine1("")
+        setLine3("")
+        setLine4("")
+        setLine6("")
+        
+    }
+
+
+    const addLineCss6 = () => {
+        setLine6("addline")
+        setLine2("")
+        setLine1("")
+        setLine3("")
+        setLine4("")
+        setLine5("")
     }
 
 
@@ -51,6 +94,7 @@ function Card1() {
                                 <div onClick={() => addLineCss3()} className={"btn1 " + line3}>
                                     Semester 3
                                 </div>
+                              
                             </div>
                             <div className='col-lg-10 col-12 p-4'>
                                 <p className='p-fade'>Honours:</p>
@@ -135,7 +179,6 @@ function Card1() {
                         </div>
 
                         <p className='p-fade1' > NON- CBCS (Regular) System</p>
-                        0-
                         {/* div for non cbcs regular system  */}
                         <div className='container-fluid mt-4'>
                         <div className='row p-4'>
@@ -149,55 +192,55 @@ function Card1() {
                             <div onClick={() => addLineCss3()} className={"btn1 " + line3}>
                                 Semester 3
                             </div>
+                            <div onClick={() => addLineCss4()} className={"btn1 " + line4}>
+                                    Semester 4
+                                </div>
+                                <div onClick={() => addLineCss5()} className={"btn1 " + line5}>
+                                    Semester 5
+                                </div>
+                                <div onClick={() => addLineCss6()} className={"btn1 " + line6}>
+                                    Semester 6
+                                </div>
                         </div>
                         <div className='col-lg-10 col-12 p-4'>
                             <p className='p-fade'>Honours:</p>
                             <Accordion>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Alernative English</Accordion.Header>
+                                    <Accordion.Header>Buisness Communication</Accordion.Header>
                                     <Accordion.Body>
-                                        Tap on the year: <a href=''>2019</a>
+                                        Tap on the year: <a href=''>2011</a> <a href=''> 2012</a> <a href=''> 2013</a><a href=''> 2014</a> <a href=''> 2015</a> <a href=''> 2016</a>  <a href=''> 2017</a><a href=''> 2018</a> <a href=''> 2019</a>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header>Buisness Law</Accordion.Header>
+                                    <Accordion.Header>Buisness Environment</Accordion.Header>
                                     <Accordion.Body>
-                                        Tap on the year: <a href=''>2019</a> <a href=''>2021</a>
+                                         Tap on the year: <a href=''>2011</a> <a href=''> 2012</a> <a href=''> 2013</a><a href=''> 2014</a> <a href=''> 2015</a> <a href=''> 2016</a>  <a href=''> 2017</a><a href=''> 2018</a> <a href=''> 2019</a>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header>Communicative English</Accordion.Header>
+                                    <Accordion.Header>Buisness Law</Accordion.Header>
                                     <Accordion.Body>
-                                        Tap on the year: <a href=''>2019</a> <a href=''>2021</a>
+                                         Tap on the year: <a href=''>2011</a> <a href=''> 2012</a> <a href=''> 2013</a><a href=''> 2014</a> <a href=''> 2015</a> <a href=''> 2016</a>  <a href=''> 2017</a><a href=''> 2018</a> <a href=''> 2019</a>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="3">
-                                    <Accordion.Header>Economics</Accordion.Header>
-                                    <Accordion.Body>
-                                        Tap on the year: <a href=''>2019</a> <a href=''>2021</a>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4">
                                     <Accordion.Header>Financial Accounting</Accordion.Header>
                                     <Accordion.Body>
-                                        Tap on the year: <a href=''>2019</a>
+                                         Tap on the year: <a href=''>2011</a> <a href=''> 2012</a> <a href=''> 2013</a><a href=''> 2014</a> <a href=''> 2015</a> <a href=''> 2016</a>  <a href=''> 2017</a><a href=''> 2018</a> <a href=''> 2019</a>
                                     </Accordion.Body>
                                 </Accordion.Item>
+                                
                             </Accordion>
 
                         </div>
                         </div>
                         </div>
-                      
-
-
-
+ 
                     </div>
                 </div>
-
-
                 <div className='container'>
-                <iframe src="https://rolling-notes.vercel.app/" width="100%" height="500px"/> 
+                {/* <iframe src="./TEST.pdf" width="100%" height="500px"/>  */}
+                <embed src={TEST}  width="100%" height="500px"/>
                 </div>
             </div>
         </>

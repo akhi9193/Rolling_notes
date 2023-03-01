@@ -5,7 +5,6 @@ import About from './About';
 import Footer from './Footer';
 import TopBanner from './TopBanner';
 import Card1 from './Card1';
-
 function App() {
   return (
       <>
@@ -13,7 +12,6 @@ function App() {
           <TopBanner/>
           <Card1/>
          <About/>
-        
          <Footer/>
       </>
   );
